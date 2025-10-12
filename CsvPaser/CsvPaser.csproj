@@ -29,6 +29,7 @@
     </None>
   </ItemGroup>
 
+  <!-- Unit of work that message-->
   <Target Name="TestMessage" BeforeTargets="Build">
     <Message Text="Property1 = $(Property1)" Importance="high" />
     <Message Text="Property2 = $(Property2)" Importance="high" />
