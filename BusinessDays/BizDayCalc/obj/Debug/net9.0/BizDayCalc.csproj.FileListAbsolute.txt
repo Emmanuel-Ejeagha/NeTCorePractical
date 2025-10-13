@@ -1,0 +1,12 @@
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/bin/Debug/net9.0/BizDayCalc.deps.json
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/bin/Debug/net9.0/BizDayCalc.dll
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/bin/Debug/net9.0/BizDayCalc.pdb
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.AssemblyInfo.cs
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.sourcelink.json
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.dll
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/refint/BizDayCalc.dll
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/BizDayCalc.pdb
+/home/emmytek/Desktop/AspPractical/BusinessDays/BizDayCalc/obj/Debug/net9.0/ref/BizDayCalc.dll
