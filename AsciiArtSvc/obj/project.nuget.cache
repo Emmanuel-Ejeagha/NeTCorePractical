@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NjRoTnGEsvg=",
+  "success": true,
+  "projectFilePath": "/home/emmytek/Desktop/AspPractical/AsciiArtSvc/AsciiArtSvc.csproj",
+  "expectedPackageFiles": [
+    "/home/emmytek/.nuget/packages/figgle/0.5.1/figgle.0.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
