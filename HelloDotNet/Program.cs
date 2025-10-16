@@ -15,5 +15,3 @@ Parser.Default.ParseArguments<Options>(args)
         WriteLine("Usage: HelloDotnet <text> --font Big"));
 // Console.WriteLine(FiggleFonts.Standard.Render(args[0]));
 // AsciiArt.Write(args[0]);
-
-WriteLine("Hello World");
