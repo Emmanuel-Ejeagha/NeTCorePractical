@@ -6,7 +6,7 @@ namespace AsciiArtSvc;
 
 public static class AsciiArt
 {
-    public static string Write(string text, string? fontName = null)
+    public static bool Write(string text, out string? asciiText, string? fontName = null)
     {
         FiggleFont? font = null;
 
@@ -17,8 +17,18 @@ public static class AsciiArt
             ?.GetValue(null)
             as FiggleFont;
         }
-        font ??= FiggleFonts.Standard;
-        return font.Render(text);
+        else
+        {
+            font ??= FiggleFonts.Standard;
+        }
+
+        if (font == null)
+        {
+            asciiText = null;
+            return false;
+        }
+        asciiText = font.Render(text);
+        return true;
     }
     public static Lazy<IEnumerable<(string Name, FiggleFont Font)>> AllFonts =
         new(() =>

@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDotNet", "HelloDotNet\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsciiArtSvc", "AsciiArtSvc\AsciiArtSvc.csproj", "{FC283331-C7F7-40D1-88E3-2B5354004A8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeImage", "BarcodeImage\BarcodeImage.csproj", "{E1CCB38F-40D4-4635-BECA-438EEF1915C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{FC283331-C7F7-40D1-88E3-2B5354004A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC283331-C7F7-40D1-88E3-2B5354004A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC283331-C7F7-40D1-88E3-2B5354004A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CCB38F-40D4-4635-BECA-438EEF1915C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CCB38F-40D4-4635-BECA-438EEF1915C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CCB38F-40D4-4635-BECA-438EEF1915C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CCB38F-40D4-4635-BECA-438EEF1915C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

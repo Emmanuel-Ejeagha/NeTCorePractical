@@ -35,7 +35,9 @@ app.MapGet("/",
   });
 
 app.MapGet("/{text}",
-(string text, string? font) =>
-AsciiArt.Write(text, font));
+  (string text, string? font) =>
+    AsciiArt.Write(text, out var asciiText, font)
+      ? Results.Content(asciiText!)
+      : Results.NotFound());
 
 app.Run();
