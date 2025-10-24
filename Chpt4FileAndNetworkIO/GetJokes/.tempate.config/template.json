@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Awesome Programmer",
+    "classifications": ["Console"],
+    "name": "Console with arguments",
+    "identity": "GetJokes",
+    "shortName": "consoleargs",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "GetJokes",
+    "preferNameDirectory": true
+}
