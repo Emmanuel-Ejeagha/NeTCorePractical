@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsciiArtWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a863cc50ef200304cd8c378a0e21a9dbe4cada9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18f5925ef35526d438481ad314d1ff262c012b0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsciiArtWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsciiArtWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

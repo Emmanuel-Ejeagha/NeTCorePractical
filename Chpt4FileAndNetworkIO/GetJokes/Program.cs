@@ -49,4 +49,15 @@ var results = Parser.Default.ParseArguments<Options>(args)
     }
 }
 
-    
+static void FindWithSerialization(Stream inStream, Stream outStream, string category)
+{
+    var serialOptions = new JsonSerializerOptions
+    {
+        WriteIndented = true,
+        PropertyNameCaseInsensitive = true,
+    };
+    var jokes = JsonSerializer.Deserialize<Joke[]>(inStream, serialOptions);
+    JsonSerializer.Serialize(outStream, jokes?.Where(j => string.Equals(category,
+        j.Type, StringComparison.OrdinalIgnoreCase)).ToArray(), serialOptions);
+}
+

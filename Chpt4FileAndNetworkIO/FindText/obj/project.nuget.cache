@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kyhHHcydIZQ=",
+  "success": true,
+  "projectFilePath": "/home/emmytek/Desktop/AspPractical/Chpt4FileAndNetworkIO/FindText/FindText.csproj",
+  "expectedPackageFiles": [
+    "/home/emmytek/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}
