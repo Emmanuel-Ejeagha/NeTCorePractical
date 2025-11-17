@@ -1,0 +1,12 @@
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/bin/Debug/net9.0/SudokuSolver.deps.json
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/bin/Debug/net9.0/SudokuSolver.dll
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/bin/Debug/net9.0/SudokuSolver.pdb
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.AssemblyInfo.cs
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.sourcelink.json
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.dll
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/refint/SudokuSolver.dll
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/SudokuSolver.pdb
+/home/emmytek/Desktop/AspPractical/Chpt6_Unit-Testing/SudokuSolver/obj/Debug/net9.0/ref/SudokuSolver.dll
