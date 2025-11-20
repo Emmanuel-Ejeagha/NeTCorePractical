@@ -1,0 +1,13 @@
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/bin/Debug/net9.0/XkcdComicFinder.deps.json
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/bin/Debug/net9.0/XkcdComicFinder.dll
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/bin/Debug/net9.0/XkcdComicFinder.pdb
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.csproj.AssemblyReference.cache
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.AssemblyInfo.cs
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.sourcelink.json
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.dll
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/refint/XkcdComicFinder.dll
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/XkcdComicFinder.pdb
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/XkcdComicFinder/obj/Debug/net9.0/ref/XkcdComicFinder.dll

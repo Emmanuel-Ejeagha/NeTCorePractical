@@ -1,0 +1,12 @@
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/bin/Debug/net9.0/CustomerBatchImporter.deps.json
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/bin/Debug/net9.0/CustomerBatchImporter.dll
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/bin/Debug/net9.0/CustomerBatchImporter.pdb
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.AssemblyInfo.cs
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.sourcelink.json
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.dll
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/refint/CustomerBatchImporter.dll
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/CustomerBatchImporter.pdb
+/home/emmytek/Desktop/AspPractical/Chpt7SubstitutingDependencies/CustomerBatchImporter/obj/Debug/net9.0/ref/CustomerBatchImporter.dll
