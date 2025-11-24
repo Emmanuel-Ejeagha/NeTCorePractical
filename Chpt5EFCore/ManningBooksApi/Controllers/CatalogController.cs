@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using static ManningBooksApi.CatalogContext;
@@ -5,6 +6,7 @@ using static ManningBooksApi.CatalogContext;
 namespace ManningBooksApi.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class CatalogController : ControllerBase
     {

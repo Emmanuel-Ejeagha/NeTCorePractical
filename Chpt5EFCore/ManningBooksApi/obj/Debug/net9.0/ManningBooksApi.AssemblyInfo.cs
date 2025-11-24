@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("06234faf-f6d6-4e7e-869e-633cf9711115")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManningBooksApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05900a9c0c9bb81ab880262dc5fbd71592facc0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4579737e0aee3f64a24ee7848e472ae52ca0026b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManningBooksApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManningBooksApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
