@@ -1,7 +1,10 @@
 using ManningBooksApi;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -13,9 +16,42 @@ builder.Services.AddDbContext<CatalogContext>(options =>
     });
 
 builder.Services.AddControllers();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    var scheme = new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.OAuth2,
+        Scheme = JwtBearerDefaults.AuthenticationScheme,
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Flows = new OpenApiOAuthFlows
+        {
+            Implicit = MsAuthHelper.GetImplicitFlow(
+                config,
+                "somescope".AddScopePrefix(config))
+        }
+    };
+    options.AddSecurityDefinition("token", scheme);
+    options.AddSecurityRequirement(
+        new OpenApiSecurityRequirement
+        {
+            {
+                new OpenApiSecurityScheme
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "token",
+                    }
+                },
+
+                Array.Empty<string>()
+            }
+        });
+});
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-.AddJwtBearer();
+.AddJwtBearer(options => options.ValidateMs(config));
 
 builder.Services.AddHsts(options =>
 {
@@ -24,6 +60,28 @@ builder.Services.AddHsts(options =>
     options.MaxAge = DateTime.UtcNow.AddYears(1) - DateTime.UtcNow;
     options.ExcludedHosts.Add("test.manningcatalog.net");
 });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AuthenticatedUsers",
+        policyBuilder =>
+        {
+            policyBuilder
+                .RequireAuthenticatedUser()
+                .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme);
+        });
+    options.AddPolicy("OnlyMe",
+        policyBuilder =>
+        {
+            policyBuilder
+                .RequireAuthenticatedUser()
+                .AddAuthenticationSchemes(
+                    JwtBearerDefaults.AuthenticationScheme)
+                .AddRequirements(new OnlyMeRequirement());
+        });
+});
+builder.Services.AddSingleton<IAuthorizationHandler, OnlyMeRequirementHandler>();
+
 
 var app = builder.Build();
 

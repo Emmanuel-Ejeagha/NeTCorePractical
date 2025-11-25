@@ -6,7 +6,6 @@ using static ManningBooksApi.CatalogContext;
 namespace ManningBooksApi.Controllers
 {
     [ApiController]
-    [Authorize]
     [Route("[controller]")]
     public class CatalogController : ControllerBase
     {
@@ -18,6 +17,7 @@ namespace ManningBooksApi.Controllers
         }
 
         [HttpGet]
+        [Authorize("AuthenticatedUsers")]
         public IAsyncEnumerable<Book> GetBooks(
             string? titleFilter = null,
             string? order = "title",
@@ -49,12 +49,14 @@ namespace ManningBooksApi.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize("AuthenticatedUsers")]
         public Task<Book> GetBook(int id)
         {
             return _dbContext.Books.FirstOrDefaultAsync(b => b.Id == id);
         }
 
         [HttpPost]
+        [Authorize("OnlyMe")]
         public async Task<Book> CreateBookAsync(BookCreateCommand command, CancellationToken cancellationToken)
         {
             var book = new Book(command.Title, command.Description);
@@ -67,6 +69,7 @@ namespace ManningBooksApi.Controllers
         [HttpPatch("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [Authorize("OnlyMe")]
         public async Task<IActionResult> UpdateBookAsync(
             int id, BookUpdateCommand command, CancellationToken cancellationToken
         )
@@ -95,6 +98,7 @@ namespace ManningBooksApi.Controllers
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [Authorize("OnlyMe")]
         public async Task<IActionResult> DeleteBookAsync(int id, CancellationToken cancellationToken)
         {
             var book = await _dbContext.Books

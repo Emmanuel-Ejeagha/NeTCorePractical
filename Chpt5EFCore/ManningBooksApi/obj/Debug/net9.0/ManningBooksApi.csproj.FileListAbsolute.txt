@@ -73,3 +73,11 @@
 /home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/obj/Debug/net9.0/ManningBooksApi.MvcApplicationPartsAssemblyInfo.cs
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/home/emmytek/Desktop/AspPractical/Chpt5EFCore/ManningBooksApi/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
