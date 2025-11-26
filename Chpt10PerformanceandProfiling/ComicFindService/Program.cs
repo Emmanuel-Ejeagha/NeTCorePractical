@@ -1,0 +1,35 @@
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
+using XkcdComicFinder;
+
+var builder = WebApplication.CreateBuilder(args);
+var services = builder.Services;
+var cfg = builder.Configuration;
+var connStr = cfg.GetConnectionString("Sqlite");
+var baseAddr = cfg.GetValue<string>("BaseAddr");
+
+services.AddScoped<IComicRepository, ComicRepository>();
+services.AddScoped<IXkcdClient, XkcdClient>();
+services.AddScoped<ComicFinder>();
+services.AddControllers();
+services.AddDbContext<ComicDbContext>(option =>
+    option.UseSqlite(connStr));
+services.AddHttpClient<IXkcdClient, XkcdClient>(
+    client => client.BaseAddress = new Uri(baseAddr!));
+
+var app = builder.Build();
+app.MapControllers();
+
+using var _keepAliveConn = new SqliteConnection(connStr);
+_keepAliveConn.Open();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbCtxt = scope.ServiceProvider
+        .GetRequiredService<ComicDbContext>();
+    dbCtxt.Database.EnsureCreated();
+}
+
+    // app.MapGet("/", () => "Hello World!");
+
+app.Run();

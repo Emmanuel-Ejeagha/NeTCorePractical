@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CmdArgsTemplate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65ac0ccf06d3459e6109b168b4f65b0d52c2a892")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+151b389a35d0a809c60e668464dec488d81de615")]
 [assembly: System.Reflection.AssemblyProductAttribute("CmdArgsTemplate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CmdArgsTemplate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

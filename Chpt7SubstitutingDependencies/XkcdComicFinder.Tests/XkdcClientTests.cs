@@ -9,8 +9,21 @@ public class XkcdClientTests
     private readonly XkcdClient xkcdClient;
     private readonly HttpMessageHandler _fakeMsgHandler;
 
-    private const string LatestJson = "...";
-
+private const string LatestJson = """
+{
+    "month": "4",
+    "num": 2630,
+    "link": "",
+    "year": "2024", 
+    "news": "",
+    "safe_title": "Paperwork",
+    "transcript": "",
+    "alt": "The paperwork is just a waiver confirming you understand that the paperwork is just a waiver.",
+    "img": "https://imgs.xkcd.com/comics/paperwork.png",
+    "title": "Paperwork",
+    "day": "12"
+}
+""";
     public XkcdClientTests()
     {
         _fakeMsgHandler = A.Fake<HttpMessageHandler>();
@@ -51,7 +64,7 @@ public class XkcdClientTests
         var comic = await xkcdClient.GetByNumberAsync(1);
         Assert.Null(comic);
     }
-    
+    [Fact]
     public async Task GetByNumber()
     {
         SetResponse(HttpStatusCode.OK, LatestJson);

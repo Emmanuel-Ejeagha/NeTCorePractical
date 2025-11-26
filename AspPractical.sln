@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver.UnitTests", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "Chpt6_Unit-Testing\SudokuSolver\SudokuSolver.csproj", "{D0E3DCA3-1614-48F1-9FDB-E83765541882}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt7SubstitutingDependencies", "Chpt7SubstitutingDependencies", "{47E615C3-554B-410A-87DC-0FB929108862}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt7and8SubstitutingDependencies", "Chpt7and8SubstitutingDependencies", "{47E615C3-554B-410A-87DC-0FB929108862}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerBatchImporter", "Chpt7SubstitutingDependencies\CustomerBatchImporter\CustomerBatchImporter.csproj", "{3304B40F-4CB2-4017-AEE4-2E96299BD4ED}"
 EndProject
@@ -56,6 +56,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XkcdComicFinder", "Chpt7SubstitutingDependencies\XkcdComicFinder\XkcdComicFinder.csproj", "{7385DA75-B97E-425E-BD7E-EC0662EB4802}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XkcdComicFinder.Tests", "Chpt7SubstitutingDependencies\XkcdComicFinder.Tests\XkcdComicFinder.Tests.csproj", "{39D3F102-1C47-4D02-844B-2BBBDA184584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicFindService", "Chpt7SubstitutingDependencies\ComicFindService\ComicFindService.csproj", "{3CBEF353-B731-4152-A45A-D3E92DAB519A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManningBooksApi.Tests", "Chpt5EFCore\ManningBooksApi.Tests\ManningBooksApi.Tests.csproj", "{CDDA9814-55E0-4987-81BF-2679E48D9E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt10PerformanceandProfiling", "Chpt10PerformanceandProfiling", "{61F5399C-70BC-42D1-804B-2A14B9E60E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBenchmark", "Chpt10PerformanceandProfiling\FirstBenchmark\FirstBenchmark.csproj", "{47205BF9-463D-45D4-8B40-907A5089F457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicFindService", "Chpt10PerformanceandProfiling\ComicFindService\ComicFindService.csproj", "{037DA9E6-727A-4DD1-B6EF-53E926876BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicFinderLoadTest", "Chpt10PerformanceandProfiling\ComicFinderLoadTest\ComicFinderLoadTest.csproj", "{4BCE4A2A-1690-4246-9F64-8D03BAA99A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XkcdComicFinder", "Chpt10PerformanceandProfiling\XkcdComicFinder\XkcdComicFinder.csproj", "{A0341890-0FA6-49C8-8485-0D3DA96AFB0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +161,30 @@ Global
 		{39D3F102-1C47-4D02-844B-2BBBDA184584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D3F102-1C47-4D02-844B-2BBBDA184584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D3F102-1C47-4D02-844B-2BBBDA184584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBEF353-B731-4152-A45A-D3E92DAB519A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBEF353-B731-4152-A45A-D3E92DAB519A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBEF353-B731-4152-A45A-D3E92DAB519A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBEF353-B731-4152-A45A-D3E92DAB519A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDA9814-55E0-4987-81BF-2679E48D9E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDA9814-55E0-4987-81BF-2679E48D9E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDA9814-55E0-4987-81BF-2679E48D9E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDA9814-55E0-4987-81BF-2679E48D9E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47205BF9-463D-45D4-8B40-907A5089F457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47205BF9-463D-45D4-8B40-907A5089F457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47205BF9-463D-45D4-8B40-907A5089F457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47205BF9-463D-45D4-8B40-907A5089F457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037DA9E6-727A-4DD1-B6EF-53E926876BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037DA9E6-727A-4DD1-B6EF-53E926876BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037DA9E6-727A-4DD1-B6EF-53E926876BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037DA9E6-727A-4DD1-B6EF-53E926876BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCE4A2A-1690-4246-9F64-8D03BAA99A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCE4A2A-1690-4246-9F64-8D03BAA99A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCE4A2A-1690-4246-9F64-8D03BAA99A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCE4A2A-1690-4246-9F64-8D03BAA99A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0341890-0FA6-49C8-8485-0D3DA96AFB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0341890-0FA6-49C8-8485-0D3DA96AFB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0341890-0FA6-49C8-8485-0D3DA96AFB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0341890-0FA6-49C8-8485-0D3DA96AFB0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +207,12 @@ Global
 		{FC639FC5-7FED-4D16-A5B6-652B28D37275} = {47E615C3-554B-410A-87DC-0FB929108862}
 		{7385DA75-B97E-425E-BD7E-EC0662EB4802} = {47E615C3-554B-410A-87DC-0FB929108862}
 		{39D3F102-1C47-4D02-844B-2BBBDA184584} = {47E615C3-554B-410A-87DC-0FB929108862}
+		{3CBEF353-B731-4152-A45A-D3E92DAB519A} = {47E615C3-554B-410A-87DC-0FB929108862}
+		{CDDA9814-55E0-4987-81BF-2679E48D9E4F} = {5A0A043B-28F3-2FBA-5C15-D2707F33C959}
+		{47205BF9-463D-45D4-8B40-907A5089F457} = {61F5399C-70BC-42D1-804B-2A14B9E60E07}
+		{037DA9E6-727A-4DD1-B6EF-53E926876BBF} = {61F5399C-70BC-42D1-804B-2A14B9E60E07}
+		{4BCE4A2A-1690-4246-9F64-8D03BAA99A7A} = {61F5399C-70BC-42D1-804B-2A14B9E60E07}
+		{A0341890-0FA6-49C8-8485-0D3DA96AFB0A} = {61F5399C-70BC-42D1-804B-2A14B9E60E07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2444D085-5271-4613-954A-F531C7751368}

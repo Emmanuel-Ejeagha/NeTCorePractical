@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManningBooksApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d476aa2d0550e5d24c09c2674969cda12086223")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+151b389a35d0a809c60e668464dec488d81de615")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManningBooksApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManningBooksApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
