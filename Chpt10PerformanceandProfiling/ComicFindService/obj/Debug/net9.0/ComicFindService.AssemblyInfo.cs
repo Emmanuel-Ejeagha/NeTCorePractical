@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComicFindService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+151b389a35d0a809c60e668464dec488d81de615")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50cc3ac793bd0a9e2aca1b339a9e0650f1b18cc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComicFindService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComicFindService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

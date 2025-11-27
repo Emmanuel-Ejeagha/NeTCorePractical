@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer.Tests/MoneyTransfer.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer.Tests/MoneyTransfer.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer.Tests/MoneyTransfer.Tests.csproj",
+        "projectName": "MoneyTransfer.Tests",
+        "projectPath": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer.Tests/MoneyTransfer.Tests.csproj",
+        "packagesPath": "/home/emmytek/.nuget/packages/",
+        "outputPath": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emmytek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer/MoneyTransfer.csproj": {
+                "projectPath": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer/MoneyTransfer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer/MoneyTransfer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer/MoneyTransfer.csproj",
+        "projectName": "MoneyTransfer",
+        "projectPath": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer/MoneyTransfer.csproj",
+        "packagesPath": "/home/emmytek/.nuget/packages/",
+        "outputPath": "/home/emmytek/Desktop/AspPractical/Chpt11HandlingFailures/MoneyTransfer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emmytek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
