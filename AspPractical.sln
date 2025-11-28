@@ -77,6 +77,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTransfer", "Chpt11Hand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTransfer.Tests", "Chpt11HandlingFailures\MoneyTransfer.Tests\MoneyTransfer.Tests.csproj", "{0750CCB8-B476-459F-8F1E-A87781D70186}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt12BuildingWorldReadyApp", "Chpt12BuildingWorldReadyApp", "{7C103FD8-D4D3-4876-948E-C6B5CB818BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcController", "Chpt12BuildingWorldReadyApp\AcController\AcController.csproj", "{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +203,10 @@ Global
 		{0750CCB8-B476-459F-8F1E-A87781D70186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0750CCB8-B476-459F-8F1E-A87781D70186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0750CCB8-B476-459F-8F1E-A87781D70186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +237,7 @@ Global
 		{A0341890-0FA6-49C8-8485-0D3DA96AFB0A} = {61F5399C-70BC-42D1-804B-2A14B9E60E07}
 		{0DD26345-907F-4B94-9EE6-CBEF171455D0} = {2221E512-0AE0-4121-8FB9-6DF340EABED6}
 		{0750CCB8-B476-459F-8F1E-A87781D70186} = {2221E512-0AE0-4121-8FB9-6DF340EABED6}
+		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1} = {7C103FD8-D4D3-4876-948E-C6B5CB818BCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2444D085-5271-4613-954A-F531C7751368}
