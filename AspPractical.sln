@@ -81,6 +81,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt12BuildingWorldReadyApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcController", "Chpt12BuildingWorldReadyApp\AcController\AcController.csproj", "{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcController.Tests", "Chpt12BuildingWorldReadyApp\AcController.Tests\AcController.Tests.csproj", "{D34A246F-98A8-4FE4-9D16-651B7F142AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34A246F-98A8-4FE4-9D16-651B7F142AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34A246F-98A8-4FE4-9D16-651B7F142AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34A246F-98A8-4FE4-9D16-651B7F142AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34A246F-98A8-4FE4-9D16-651B7F142AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,6 +244,7 @@ Global
 		{0DD26345-907F-4B94-9EE6-CBEF171455D0} = {2221E512-0AE0-4121-8FB9-6DF340EABED6}
 		{0750CCB8-B476-459F-8F1E-A87781D70186} = {2221E512-0AE0-4121-8FB9-6DF340EABED6}
 		{6099A2A4-3B63-44CE-8ADD-DABEDCBCACC1} = {7C103FD8-D4D3-4876-948E-C6B5CB818BCE}
+		{D34A246F-98A8-4FE4-9D16-651B7F142AE2} = {7C103FD8-D4D3-4876-948E-C6B5CB818BCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2444D085-5271-4613-954A-F531C7751368}
