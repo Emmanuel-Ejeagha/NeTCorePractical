@@ -1,0 +1,18 @@
+Timestamp: 8‏‏/6‏‏/1447 بعد الهجرة 6:13:28 م
+Site     :TIJI
+Unit ID  :System.Collections.Generic.List`1[MeasurementDto]
+      Exhaust Air Temperature: {0} C: 0 C
+          Coolant Temperature: {0} C: 0 C
+      Outside Air Temperature: {0} C: 0 C
+Timestamp: 8‏‏/6‏‏/1447 بعد الهجرة 6:22:43 م
+Site     :TIJI
+Unit ID  :1
+      Exhaust Air Temperature: {0} C: 0 C
+          Coolant Temperature: {0} C: 0 C
+      Outside Air Temperature: {0} C: 0 C
+Timestamp: 8‏‏/6‏‏/1447 بعد الهجرة 6:23:17 م
+Site     :TIJI
+Unit ID  :1
+    ‫ﺍﻟﻌﺎﺩﻡ‬ ‫ﺍﻟﻬﻮﺍء‬ ‫ﺣﺮﺍﺭﺓ‬ ‫ﺩﺭﺟﺔ‬: 0 C
+             ‫ﺍﻟﻤﺒﺮﺩ‬ ‫ﺣﺮﺍﺭﺓ‬ ‫ﺩﺭﺟﺔ‬: 0 C
+   ‫ﺍﻟﺨﺎﺭﺟﻲ‬ ‫ﺍﻟﻬﻮﺍء‬ ‫ﺣﺮﺍﺭﺓ‬ ‫ﺩﺭﺟﺔ‬: 0 C

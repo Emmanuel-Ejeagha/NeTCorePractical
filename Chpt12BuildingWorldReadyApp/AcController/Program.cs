@@ -7,6 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
@@ -36,7 +37,7 @@ public class Program
 
         app.UseAuthorization();
 
-        var cultures = new[] { "en-US", "es-MX" };
+        var cultures = new[] { "en-US", "es-MX", "ar-SA" };
         var localizationOptions = new RequestLocalizationOptions()
           .SetDefaultCulture(cultures[0])
           .AddSupportedCultures(cultures)

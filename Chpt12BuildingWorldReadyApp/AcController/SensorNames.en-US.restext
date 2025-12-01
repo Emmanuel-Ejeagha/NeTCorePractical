@@ -1,0 +1,5 @@
+# Sensors
+
+ExhaustAirTemp=Exhaust Air Temperature: {0} C
+CoolantTemp=Coolant Temperature: {0} C
+OutsideAirTemp=Outside Air Temperature: {0} C

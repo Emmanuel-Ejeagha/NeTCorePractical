@@ -1,0 +1,15 @@
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/bin/Debug/net9.0/AcController.Client
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/bin/Debug/net9.0/AcController.Client.deps.json
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/bin/Debug/net9.0/AcController.Client.runtimeconfig.json
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/bin/Debug/net9.0/AcController.Client.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/bin/Debug/net9.0/AcController.Client.pdb
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.AssemblyInfoInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.AssemblyInfo.cs
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.csproj.CoreCompileInputs.cache
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.sourcelink.json
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/refint/AcController.Client.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.pdb
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/AcController.Client.genruntimeconfig.cache
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController.Client/obj/Debug/net9.0/ref/AcController.Client.dll

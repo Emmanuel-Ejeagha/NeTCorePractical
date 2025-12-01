@@ -35,9 +35,16 @@
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/AcController.SensorNames.resources
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/AcController.csproj.GenerateResource.cache
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/bin/Debug/net9.0/es-MX/AcController.resources.dll
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/AcController.SensorNames.es-MX.resources
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/es-MX/AcController.resources.cs
 /home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/es-MX/AcController.resources.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/bin/Debug/net9.0/ar-SA/AcController.resources.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/bin/Debug/net9.0/en-US/AcController.resources.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/AcController.SensorNames.ar-SA.resources
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/AcController.SensorNames.en-US.resources
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/ar-SA/AcController.resources.cs
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/ar-SA/AcController.resources.dll
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/en-US/AcController.resources.cs
+/home/emmytek/Desktop/AspPractical/Chpt12BuildingWorldReadyApp/AcController/obj/Debug/net9.0/en-US/AcController.resources.dll

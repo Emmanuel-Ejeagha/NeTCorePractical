@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AcController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ed4102751bd0be35313a6e4c759fc059e501f38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86bb7a7fee82ce9f342c4a3eb922d831c9240642")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
